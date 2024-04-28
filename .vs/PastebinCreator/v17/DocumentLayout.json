@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\REPOS\\C#\\EPAM\\PastebinCreator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|e:\\repos\\c#\\epam\\pastebincreator\\pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|solutionrelative:pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|e:\\repos\\c#\\epam\\pastebincreator\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|solutionrelative:helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|e:\\repos\\c#\\epam\\pastebincreator\\pastebintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|solutionrelative:pastebintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 123,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.cs",
+              "DocumentMoniker": "E:\\REPOS\\C#\\EPAM\\PastebinCreator\\Pages\\MainPage.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.cs",
+              "ToolTip": "E:\\REPOS\\C#\\EPAM\\PastebinCreator\\Pages\\MainPage.cs",
+              "RelativeToolTip": "Pages\\MainPage.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:11:57.722Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 123,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HelperMethods.cs",
+              "DocumentMoniker": "E:\\REPOS\\C#\\EPAM\\PastebinCreator\\HelperMethods.cs",
+              "RelativeDocumentMoniker": "HelperMethods.cs",
+              "ToolTip": "E:\\REPOS\\C#\\EPAM\\PastebinCreator\\HelperMethods.cs",
+              "RelativeToolTip": "HelperMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:35:03.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PastebinTest.cs",
+              "DocumentMoniker": "E:\\REPOS\\C#\\EPAM\\PastebinCreator\\PastebinTest.cs",
+              "RelativeDocumentMoniker": "PastebinTest.cs",
+              "ToolTip": "E:\\REPOS\\C#\\EPAM\\PastebinCreator\\PastebinTest.cs",
+              "RelativeToolTip": "PastebinTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:08:53.715Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 123,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 543,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

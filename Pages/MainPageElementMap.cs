@@ -12,7 +12,11 @@ namespace PastebinCreator.Pages
         public IWebElement CodeFormLocator => this.driver.FindElement(By.Id("postform-text"));
         public IWebElement PasteExpirationLocator => this.driver.FindElement(By.Id("select2-postform-expiration-container"));
         public IWebElement PasteTitle => this.driver.FindElement(By.Id("postform-name"));
-        public IWebElement CreatePasteButton => this.driver.FindElement(By.ClassName("header__btn"));
-        public IWebElement PrivacyCheckButton => this.driver.FindElement(By.ClassName("css-47sehv"));
+        public IWebElement CreateNewPasteButton => this.driver.FindElement(By.ClassName("header__btn"));
+        public IWebElement PrivacyCheckButton => this.driver.FindElement(PrivacyButtonSelector);
+        public IWebElement SubmitNewPasteButton => this.driver.FindElement(By.CssSelector("[class ='btn -big']"));
+        public IWebElement SyntaxHighlight => this.driver.FindElement(By.ClassName("night-auto"));
+        public By DropDownItems => By.CssSelector("li[class *='select2-results__option']");
+        public By PrivacyButtonSelector => By.CssSelector("[class = ' css-47sehv']");
     }
 }

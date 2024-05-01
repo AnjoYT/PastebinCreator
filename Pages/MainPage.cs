@@ -14,13 +14,8 @@ namespace PastebinCreator.Pages
             this.wait = wait;
         }
 
-        protected MainPageElementMap Map
-        {
-            get
-            {
-                return new MainPageElementMap(this.driver);
-            }
-        }
+        protected MainPageElementMap Map => new MainPageElementMap(this.driver);
+
 
         public void Navigate()
         {
@@ -28,14 +23,13 @@ namespace PastebinCreator.Pages
         }
         public void CheckAndHandlePrivacy()
         {
-            string className = "css-47sehv";
-            wait.Until(By.ClassName(className));
+            wait.Until(Map.PrivacyButtonSelector);
             Map.PrivacyCheckButton.Click();
 
         }
         public void CreateNewPaste()
         {
-            Map.CreatePasteButton.Click();
+            Map.CreateNewPasteButton.Click();
         }
         public void EnterCode(string text)
         {
@@ -46,14 +40,23 @@ namespace PastebinCreator.Pages
         public void PickExpirationDate(string text)
         {
             driver.ScrollToElement(Map.PasteExpirationLocator);
-            By locator = By.CssSelector("li[class *='select2-results__option']");
             Map.PasteExpirationLocator.Click();
-            driver.ClickElementFromDropDown(locator, text);
+            driver.ClickElementFromDropDown(Map.DropDownItems, text);
         }
         public void AddTitle(string text)
         {
             driver.ScrollToElement(Map.PasteTitle);
             Map.PasteTitle.SendKeys(text);
+        }
+        public void SetSyntax(string text)
+        {
+            driver.ScrollToElement(Map.SyntaxHighlight);
+            Map.SyntaxHighlight.Click();
+            driver.ClickElementFromDropDown(Map.DropDownItems, text);
+        }
+        public void SubmitNewPaste()
+        {
+            Map.SubmitNewPasteButton.Submit();
         }
 
     }

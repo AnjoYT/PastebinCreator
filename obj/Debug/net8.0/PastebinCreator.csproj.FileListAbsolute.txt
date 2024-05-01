@@ -102,3 +102,5 @@ E:\REPOS\C#\EPAM\PastebinCreator\obj\Debug\net8.0\PastebinCreator.pdb
 E:\REPOS\C#\EPAM\PastebinCreator\obj\Debug\net8.0\PastebinCreator.genruntimeconfig.cache
 E:\REPOS\C#\EPAM\PastebinCreator\obj\Debug\net8.0\ref\PastebinCreator.dll
 E:\REPOS\C#\EPAM\PastebinCreator\bin\Debug\net8.0\SeleniumExtras.WaitHelpers.dll
+E:\REPOS\C#\EPAM\PastebinCreator\bin\Debug\net8.0\SeleniumExtras.PageObjects.dll
+E:\REPOS\C#\EPAM\PastebinCreator\obj\Debug\net8.0\PastebinCreator.sourcelink.json

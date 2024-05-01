@@ -7,27 +7,30 @@ namespace PastebinCreator
 {
     public class PastebinTest : IDisposable
     {
-        private IWebDriver driver;
-        private WebDriverWait wait;
+        public IWebDriver Driver { get; set; }
+        public WebDriverWait Wait { get; set; }
         public PastebinTest()
         {
-            driver = new ChromeDriver();
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
+            Driver = new ChromeDriver();
+            Driver.Manage().Window.Maximize();
+            Wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(30));
         }
 
         public void Dispose()
         {
-            driver.Dispose();
+            Driver.Dispose();
         }
 
         [Fact]
         public void CreateNewPaste()
         {
-            MainPage mainPage = new MainPage(driver, wait);
+            MainPage mainPage = new MainPage(Driver, Wait);
             mainPage.Navigate();
             mainPage.CheckAndHandlePrivacy();
             mainPage.CreateNewPaste();
-            Dispose();
+            mainPage.EnterCode("Hello from WebDriver");
+            mainPage.PickExpirationDate("10 Minutes");
+            mainPage.AddTitle("helloweb");
         }
     }
 }

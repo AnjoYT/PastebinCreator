@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IazChqdaHaGhSmBoL0hUScMqd21ONgegyzz8vn26kYKJTyjgfu8n0O99ghsafGTX3kfxyevLwu2tIO7KQ/nUWQ==",
+  "dgSpecHash": "E+wHVV5AvYGvaNjwgaF9FW2YTydwSpzzOtn72qhyYPT/OHfrA6GR+APjgpBOBXbMALP4SYUztaynauoRp/A3Cw==",
   "success": true,
   "projectFilePath": "E:\\REPOS\\C#\\EPAM\\PastebinCreator\\PastebinCreator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bartek\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
+    "C:\\Users\\Bartek\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0\\dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+    "C:\\Users\\Bartek\\.nuget\\packages\\dotnetseleniumextras.pageobjects.core\\4.14.1\\dotnetseleniumextras.pageobjects.core.4.14.1.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.codecoverage\\17.9.0\\microsoft.codecoverage.17.9.0.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\microsoft.net.test.sdk\\17.9.0\\microsoft.net.test.sdk.17.9.0.nupkg.sha512",

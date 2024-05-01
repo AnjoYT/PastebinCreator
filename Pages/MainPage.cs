@@ -5,21 +5,22 @@ namespace PastebinCreator.Pages
 {
     public class MainPage
     {
-        private IWebDriver driver;
-        private WebDriverWait wait;
+        private readonly IWebDriver driver;
+        private readonly WebDriverWait wait;
         private readonly string url = "https://pastebin.com";
         public MainPage(IWebDriver driver, WebDriverWait wait)
         {
             this.driver = driver;
             this.wait = wait;
         }
-        IWebElement CodeForm => driver.FindElement(By.Id("postform-text"));
-        SelectElement Category => new SelectElement(driver.FindElement(By.Id("select2-postform-category_id-container")));
-        SelectElement PasteExpiration => new SelectElement(driver.FindElement(By.Id("select2-postform-expiration-container")));
-        SelectElement PasteEposure => new SelectElement(driver.FindElement(By.Id("select2-postform-status-container")));
-        IWebElement PasteTitle => driver.FindElement(By.Id("postform-name"));
-        IWebElement CreatePasteButton => driver.FindElement(By.ClassName("header__btn"));
-        IWebElement PrivacyCheckButton => driver.FindElement(By.ClassName("css-47sehv"));
+
+        protected MainPageElementMap Map
+        {
+            get
+            {
+                return new MainPageElementMap(this.driver);
+            }
+        }
 
         public void Navigate()
         {
@@ -27,17 +28,32 @@ namespace PastebinCreator.Pages
         }
         public void CheckAndHandlePrivacy()
         {
-            wait.Until(By.ClassName("css-47sehv"));
-            PrivacyCheckButton.Click();
+            string className = "css-47sehv";
+            wait.Until(By.ClassName(className));
+            Map.PrivacyCheckButton.Click();
 
         }
         public void CreateNewPaste()
         {
-            CreatePasteButton.Click();
+            Map.CreatePasteButton.Click();
         }
         public void EnterCode(string text)
         {
-            CodeForm.EnterText(text);
+            driver.ScrollToElement(Map.CodeFormLocator);
+            Map.CodeFormLocator.SendKeys(text);
+        }
+
+        public void PickExpirationDate(string text)
+        {
+            driver.ScrollToElement(Map.PasteExpirationLocator);
+            By locator = By.CssSelector("li[class *='select2-results__option']");
+            Map.PasteExpirationLocator.Click();
+            driver.ClickElementFromDropDown(locator, text);
+        }
+        public void AddTitle(string text)
+        {
+            driver.ScrollToElement(Map.PasteTitle);
+            Map.PasteTitle.SendKeys(text);
         }
 
     }

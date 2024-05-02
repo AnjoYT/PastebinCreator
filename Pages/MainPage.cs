@@ -23,7 +23,7 @@ namespace PastebinCreator.Pages
         }
         public void CheckAndHandlePrivacy()
         {
-            wait.Until(Map.PrivacyButtonSelector);
+            wait.UntilExist(Map.PrivacyButtonSelector);
             Map.PrivacyCheckButton.Click();
 
         }
@@ -53,6 +53,11 @@ namespace PastebinCreator.Pages
             driver.ScrollToElement(Map.SyntaxHighlight);
             Map.SyntaxHighlight.Click();
             driver.ClickElementFromDropDown(Map.DropDownItems, text);
+        }
+        public void EnableSyntaxHighlight()
+        {
+            driver.ScrollToElement(Map.SyntaxHighlightCheckbox);
+            Map.SyntaxHighlightCheckbox.Click();
         }
         public void SubmitNewPaste()
         {

@@ -10,7 +10,7 @@ namespace PastebinCreator
         {
             driver.Navigate().GoToUrl(url);
         }
-        public static void Until(this WebDriverWait wait, By by)
+        public static void UntilExist(this WebDriverWait wait, By by)
         {
             wait.Until(ExpectedConditions.ElementExists(by));
         }

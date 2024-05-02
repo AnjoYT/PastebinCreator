@@ -15,7 +15,8 @@ namespace PastebinCreator.Pages
         public IWebElement CreateNewPasteButton => this.driver.FindElement(By.ClassName("header__btn"));
         public IWebElement PrivacyCheckButton => this.driver.FindElement(PrivacyButtonSelector);
         public IWebElement SubmitNewPasteButton => this.driver.FindElement(By.CssSelector("[class ='btn -big']"));
-        public IWebElement SyntaxHighlight => this.driver.FindElement(By.ClassName("night-auto"));
+        public IWebElement SyntaxHighlight => this.driver.FindElement(By.Id("select2-postform-format-container"));
+        public IWebElement SyntaxHighlightCheckbox => this.driver.FindElement(By.ClassName("toggle__control"));
         public By DropDownItems => By.CssSelector("li[class *='select2-results__option']");
         public By PrivacyButtonSelector => By.CssSelector("[class = ' css-47sehv']");
     }

@@ -42,10 +42,11 @@ namespace PastebinCreator
             mainPage.CheckAndHandlePrivacy();
             mainPage.CreateNewPaste();
             mainPage.EnableSyntaxHighlight();
-            mainPage.EnterCode("git config --global user.name  \"New Sheriff in Town\"\ngit reset $(git commit-tree HEAD^{tree} -m \"Legacy code\")\ngit push origin master --force\n");
+            mainPage.EnterCodeWithHighlight("git config --global user.name  \"New Sheriff in Town\"\ngit reset $(git commit-tree HEAD^{tree} -m \"Legacy code\")\ngit push origin master --force\n");
+            mainPage.SetSyntax("Bash");
             mainPage.PickExpirationDate("10 Minutes");
             mainPage.AddTitle("how to gain dominance among developers");
-            //mainPage.SubmitNewPaste();
+            mainPage.SubmitNewPaste();
         }
     }
 }

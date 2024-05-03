@@ -33,8 +33,11 @@ namespace PastebinCreator.Pages
         }
         public void EnterCode(string text)
         {
-            driver.ScrollToElement(Map.CodeFormLocator);
             Map.CodeFormLocator.SendKeys(text);
+        }
+        public void EnterCodeWithHighlight(string text)
+        {
+            Map.CodeFormWithHiglight.SendKeys(text);
         }
 
         public void PickExpirationDate(string text)
@@ -56,7 +59,6 @@ namespace PastebinCreator.Pages
         }
         public void EnableSyntaxHighlight()
         {
-            driver.ScrollToElement(Map.SyntaxHighlightCheckbox);
             Map.SyntaxHighlightCheckbox.Click();
         }
         public void SubmitNewPaste()

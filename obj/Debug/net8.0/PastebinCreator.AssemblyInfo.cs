@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PastebinCreator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7242be2acd8c3bd98e0378b2907678edfc84cd02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc2108c0dd3662b10c9f52bbc27e4e1d96f819be")]
 [assembly: System.Reflection.AssemblyProductAttribute("PastebinCreator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PastebinCreator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

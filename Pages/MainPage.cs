@@ -23,8 +23,7 @@ namespace PastebinCreator.Pages
         }
         public void CheckAndHandlePrivacy()
         {
-            wait.UntilExist(Map.PrivacyButtonSelector);
-            Map.PrivacyCheckButton.Click();
+            this.Map.PrivacyButtonSelector.HandlePrivacy(this.Map.PrivacyCheckButton, this.wait);
 
         }
         public void CreateNewPaste()

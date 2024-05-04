@@ -10,7 +10,7 @@ namespace PastebinCreator.Pages
             this.driver = driver;
         }
         public IWebElement CodeFormWithHiglight => this.driver.FindElement(By.CssSelector(".CodeMirror textarea"));
-        public IWebElement CodeFormLocator => this.driver.FindElement(By.CssSelector(".CodeMirror textarea"));
+        public IWebElement CodeFormLocator => this.driver.FindElement(By.Id("postform-text"));
         public IWebElement PasteExpirationLocator => this.driver.FindElement(By.Id("select2-postform-expiration-container"));
         public IWebElement PasteTitle => this.driver.FindElement(By.Id("postform-name"));
         public IWebElement CreateNewPasteButton => this.driver.FindElement(By.ClassName("header__btn"));

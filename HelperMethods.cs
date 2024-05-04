@@ -10,10 +10,6 @@ namespace PastebinCreator
         {
             driver.Navigate().GoToUrl(url);
         }
-        public static void UntilExist(this WebDriverWait wait, By by)
-        {
-            wait.Until(ExpectedConditions.ElementExists(by));
-        }
         public static void ClickElementFromDropDown(this IWebDriver driver, By by, string text)
         {
             var elements = driver.FindElements(by);
@@ -27,6 +23,31 @@ namespace PastebinCreator
         {
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
             js.ExecuteScript("arguments[0].scrollIntoView(true);", locator);
+        }
+
+        public static void HandlePrivacy(this By by, IWebElement locator, WebDriverWait wait)
+        {
+            wait.Until(ExpectedConditions.ElementToBeClickable(by));
+            locator.Click();
+        }
+
+        public static bool CompareElements(this string text, IWebElement lines)
+        {
+            if (lines == null)
+            {
+                throw new ArgumentNullException(nameof(lines));
+            }
+            string[] expectedLines = text.Split('\n');
+            foreach (var line in lines.FindElements(By.CssSelector("li")))
+            {
+                string test = line.GetAttribute("innerText");
+                string lineWithoutTags = line.GetAttribute("innerText");
+                if (!expectedLines.Contains(lineWithoutTags.Trim()))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

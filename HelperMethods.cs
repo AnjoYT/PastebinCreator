@@ -28,5 +28,7 @@ namespace PastebinCreator
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
             js.ExecuteScript("arguments[0].scrollIntoView(true);", locator);
         }
+        public static void WaitForPageLoad(this WebDriverWait wait) => wait.Until(condition => ((IJavaScriptExecutor)condition).ExecuteScript("return document.readyState").Equals("complete"));
+
     }
 }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Repos\\C#\\EPAM\\PastebinCreator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|d:\\repos\\c#\\epam\\pastebincreator\\pastebintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|solutionrelative:pastebintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|d:\\repos\\c#\\epam\\pastebincreator\\pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|solutionrelative:pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|d:\\repos\\c#\\epam\\pastebincreator\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|solutionrelative:helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|d:\\repos\\c#\\epam\\pastebincreator\\pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|solutionrelative:pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|d:\\repos\\c#\\epam\\pastebincreator\\pastebintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|solutionrelative:pastebintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75CDAD9C-DF60-4010-A102-27A7621AEAF1}|PastebinCreator.csproj|d:\\repos\\c#\\epam\\pastebincreator\\pages\\mainpageelementmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,34 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 123,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainPage.cs",
               "DocumentMoniker": "D:\\Repos\\C#\\EPAM\\PastebinCreator\\Pages\\MainPage.cs",
               "RelativeDocumentMoniker": "Pages\\MainPage.cs",
               "ToolTip": "D:\\Repos\\C#\\EPAM\\PastebinCreator\\Pages\\MainPage.cs",
               "RelativeToolTip": "Pages\\MainPage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T14:11:57.722Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         },
         {
           "DockedWidth": 123,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -73,8 +73,7 @@
               "RelativeToolTip": "Pages\\MainPageElementMap.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T19:31:05.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T19:31:05.468Z"
             },
             {
               "$type": "Document",
@@ -84,14 +83,14 @@
               "RelativeDocumentMoniker": "HelperMethods.cs",
               "ToolTip": "D:\\Repos\\C#\\EPAM\\PastebinCreator\\HelperMethods.cs",
               "RelativeToolTip": "HelperMethods.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T14:35:03.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PastebinTest.cs",
               "DocumentMoniker": "D:\\Repos\\C#\\EPAM\\PastebinCreator\\PastebinTest.cs",
               "RelativeDocumentMoniker": "PastebinTest.cs",

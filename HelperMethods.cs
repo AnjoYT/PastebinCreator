@@ -49,5 +49,6 @@ namespace PastebinCreator
             }
             return true;
         }
+        public static void WaitForPageLoad(this WebDriverWait wait) => wait.Until(condition => ((IJavaScriptExecutor)condition).ExecuteScript("return document.readyState").Equals("complete"));
     }
 }

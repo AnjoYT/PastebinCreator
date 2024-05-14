@@ -20,6 +20,7 @@ namespace PastebinCreator.Pages
         public void Navigate()
         {
             driver.Navigate(url);
+            wait.WaitForPageLoad();
         }
         public void CheckAndHandlePrivacy()
         {

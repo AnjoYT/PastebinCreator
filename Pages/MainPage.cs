@@ -28,8 +28,7 @@ namespace PastebinCreator.Pages
         }
         public void CheckAndHandlePrivacy()
         {
-            string className = "css-47sehv";
-            wait.Until(By.ClassName(className));
+            wait.Until(this.Map.PrivacyButtonSelector);
             Map.PrivacyCheckButton.Click();
 
         }
@@ -46,9 +45,8 @@ namespace PastebinCreator.Pages
         public void PickExpirationDate(string text)
         {
             driver.ScrollToElement(Map.PasteExpirationLocator);
-            By locator = By.CssSelector("li[class *='select2-results__option']");
             Map.PasteExpirationLocator.Click();
-            driver.ClickElementFromDropDown(locator, text);
+            driver.ClickElementFromDropDown(this.Map.PasteExpitationOptions, text);
         }
         public void AddTitle(string text)
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E+wHVV5AvYGvaNjwgaF9FW2YTydwSpzzOtn72qhyYPT/OHfrA6GR+APjgpBOBXbMALP4SYUztaynauoRp/A3Cw==",
+  "dgSpecHash": "XBkDYNQPkYzTfb+y3cmIffscmrr7xXKdoiNs0f8BGQR94tNEIvXuezCQWcBby752a3COIvmuPNsdlNiH0c83eA==",
   "success": true,
-  "projectFilePath": "E:\\REPOS\\C#\\EPAM\\PastebinCreator\\PastebinCreator.csproj",
+  "projectFilePath": "D:\\Repos\\C#\\EPAM\\PastebinCreator\\PastebinCreator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bartek\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\Bartek\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0\\dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
